@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>08457F5A-A816-4971-B4AF-DAADB36AC67E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F8D73AEA82F9B5C010C112F6EE1D4A736E4C82BB</key>
+		<string>https://github.com/heigong/CDShare.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iOS/AutoLayoutLifeCycleDemo/AutoLayoutLifeCycleDemo.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F8D73AEA82F9B5C010C112F6EE1D4A736E4C82BB</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/heigong/CDShare.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F8D73AEA82F9B5C010C112F6EE1D4A736E4C82BB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F8D73AEA82F9B5C010C112F6EE1D4A736E4C82BB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CDShare</string>
+		</dict>
+	</array>
+</dict>
+</plist>
