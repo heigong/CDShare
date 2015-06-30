@@ -3,9 +3,8 @@
 Demonstrate the event lifecycle of a UIViewController with AutoLayout.
 
 1. The sequence of events:
-viewDidLoad -> viewWillAppear -> viewWillLayoutSubviews(1) -> viewDidLayoutSubviews(1) -> viewDidAppear -> viewWillLayoutSubviews(2) -> viewDidLayoutSubviews(2)
-
-You can see that viewWillLayoutSubviews and viewDidLayoutSubviews are actually get called twice.
+ * viewDidLoad -> viewWillAppear -> viewWillLayoutSubviews(1) -> viewDidLayoutSubviews(1) -> viewDidAppear ->    viewWillLayoutSubviews(2) -> viewDidLayoutSubviews(2)
+ * You can see that viewWillLayoutSubviews and viewDidLayoutSubviews are actually get called twice.
 
 2. When a view's parent is the root view, it gets the expected frame in the first viewDidLayoutSubviews.
 
