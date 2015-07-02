@@ -19,19 +19,5 @@ class ReplaceSegue: UIStoryboardSegue {
         controlerStack.replaceObjectAtIndex(controlerStack.indexOfObject(sourceController), withObject:destinationController)
         
         navigationController.setViewControllers(controlerStack as [AnyObject], animated: true)
-        
-//            // Grab Variables for readability
-//            UIViewController *sourceViewController = (UIViewController*)[self sourceViewController];
-//            UIViewController *destinationController = (UIViewController*)[self destinationViewController];
-//            UINavigationController *navigationController = sourceViewController.navigationController;
-//            
-//            // Get a changeable copy of the stack
-//            NSMutableArray *controllerStack = [NSMutableArray arrayWithArray:navigationController.viewControllers];
-//            // Replace the source controller with the destination controller, wherever the source may be
-//            [controllerStack replaceObjectAtIndex:[controllerStack indexOfObject:sourceViewController] withObject:destinationController];
-//            
-//            // Assign the updated stack with animation
-//            [navigationController setViewControllers:controllerStack animated:YES];
-
     }
 }
