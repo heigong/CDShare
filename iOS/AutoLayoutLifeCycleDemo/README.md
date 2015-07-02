@@ -1,4 +1,4 @@
-# CDShare
+# AutoLayoutLifeCycleDemo
 
 Demonstrate the event lifecycle of a UIViewController with AutoLayout.
 
