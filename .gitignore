@@ -1,22 +1,4 @@
 
-iOS/ReplaceSegueDemo/ReplaceSegueDemo.xcodeproj/xcuserdata/dichen.xcuserdatad/xcschemes/xcschememanagement.plist
+xcuserdata/
 
-iOS/ReplaceSegueDemo/ReplaceSegueDemo.xcodeproj/project.xcworkspace/xcshareddata/ReplaceSegueDemo.xccheckout
-
-iOS/ReplaceSegueDemo/ReplaceSegueDemo.xcodeproj/project.xcworkspace/xcuserdata/dichen.xcuserdatad/UserInterfaceState.xcuserstate
-
-iOS/ReplaceSegueDemo/ReplaceSegueDemo.xcodeproj/xcuserdata/dichen.xcuserdatad/xcschemes/ReplaceSegueDemo.xcscheme
-
-*.plist
-
-iOS/ViewLifeCycleDemo/ViewLifeCycleDemo.xcodeproj/xcuserdata/dichen.xcuserdatad/xcschemes/ViewLifeCycleDemo.xcscheme
-
-iOS/ViewLifeCycleDemo/ViewLifeCycleDemo.xcodeproj/xcuserdata/dichen.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist
-
-*.xcuserstate
-
-iOS/ViewLifeCycleDemo/ViewLifeCycleDemo.xcodeproj/project.xcworkspace/xcshareddata/ViewLifeCycleDemo.xccheckout
-
-iOS/UniversalAutoLayoutDemo/UniversalAutoLayoutDemo.xcodeproj/xcuserdata/dichen.xcuserdatad/xcschemes/UniversalAutoLayoutDemo.xcscheme
-
-iOS/UniversalAutoLayoutDemo/UniversalAutoLayoutDemo.xcodeproj/project.xcworkspace/xcshareddata/UniversalAutoLayoutDemo.xccheckout
+*.xccheckout
