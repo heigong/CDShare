@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="DispatchGroupDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mjl-uc-RhQ">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="200"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7yz-Va-kS5">
+                                <rect key="frame" x="0.0" y="200" width="600" height="200"/>
+                                <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JED-U5-BOr">
+                                <rect key="frame" x="0.0" y="400" width="600" height="200"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="0.5" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="7yz-Va-kS5" firstAttribute="height" secondItem="Mjl-uc-RhQ" secondAttribute="height" id="Ee1-yv-SF9"/>
+                            <constraint firstItem="Mjl-uc-RhQ" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-16" id="F8Y-c2-zLW"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="7yz-Va-kS5" secondAttribute="trailing" constant="-16" id="Gdn-cE-luS"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="JED-U5-BOr" secondAttribute="bottom" id="Tvg-lg-RWo"/>
+                            <constraint firstItem="JED-U5-BOr" firstAttribute="height" secondItem="Mjl-uc-RhQ" secondAttribute="height" id="V0w-nI-lKZ"/>
+                            <constraint firstItem="JED-U5-BOr" firstAttribute="top" secondItem="7yz-Va-kS5" secondAttribute="bottom" id="Xso-4h-DXU"/>
+                            <constraint firstItem="JED-U5-BOr" firstAttribute="top" secondItem="7yz-Va-kS5" secondAttribute="bottom" id="aMP-an-5zW"/>
+                            <constraint firstItem="JED-U5-BOr" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-16" id="c8v-mU-cLP"/>
+                            <constraint firstItem="Mjl-uc-RhQ" firstAttribute="height" secondItem="kh9-bI-dsS" secondAttribute="height" multiplier="1:3" id="gYR-ch-Hij"/>
+                            <constraint firstItem="7yz-Va-kS5" firstAttribute="top" secondItem="Mjl-uc-RhQ" secondAttribute="bottom" id="igs-TK-H0j"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="JED-U5-BOr" secondAttribute="trailing" constant="-16" id="qFg-0K-dv0"/>
+                            <constraint firstItem="7yz-Va-kS5" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-16" id="qq7-NO-aw7"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Mjl-uc-RhQ" secondAttribute="trailing" constant="-16" id="rAK-li-h7V"/>
+                            <constraint firstItem="Mjl-uc-RhQ" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="topMargin" id="rdl-of-Y94"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="blueView" destination="JED-U5-BOr" id="3zx-Up-44U"/>
+                        <outlet property="redView" destination="Mjl-uc-RhQ" id="WzF-Qz-9iU"/>
+                        <outlet property="yellowView" destination="7yz-Va-kS5" id="wN5-Gn-QPW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="yAX-tX-GTa">
+            <objects>
+                <viewController id="RUp-ZV-Kuu" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Bfd-NE-kJq"/>
+                        <viewControllerLayoutGuide type="bottom" id="I7h-mB-f44"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4Bc-VA-dLk">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jdm-QZ-Nc8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
